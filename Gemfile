@@ -31,7 +31,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-gem 'sass', '3.2.19' 
+gem 'sass', '3.2.19'
+gem 'bower-rails'
+
 group :test, :development do
   gem 'rspec-rails', '~> 3.4', '>= 3.4.2'
   gem 'factory_girl_rails', '~> 4.7'
